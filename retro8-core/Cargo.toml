@@ -1,0 +1,10 @@
+[package]
+name = "retro8-core"
+edition = "2021"
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

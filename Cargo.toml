@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = ["retro8", "retro8-core", "retro8-glm", "retro8-utils"]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Anton Fredriksson"]
+license = "MIT"
+
+# all dependencies used across multiple modules (crates) in the workspace
+[workspace.dependencies]
+derive_more = "0.99.17"
+env_logger = "0.11.1"
+log = "0.4.20"
+retro8-utils = { path = "./retro8-utils" }
+rstest = "0.18.2"
+wgpu = "0.19.1"

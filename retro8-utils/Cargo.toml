@@ -1,0 +1,11 @@
+[package]
+name = "retro8-utils"
+edition = "2021"
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+derive_more = { workspace = true }
+strum = "0.26.1"
+thiserror = "1.0.56"
