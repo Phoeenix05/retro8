@@ -18,7 +18,7 @@ impl MyTrait for MyStruct {}
 - types *(structs and enums)* should implement `Debug`, `Default` (enums are exempted), `Clone`
     - also `Copy` and `Display` optionally
 
-- types should have a `new` function
+- types should have either a `new` function or all fields should be public
 
 ### naming
 

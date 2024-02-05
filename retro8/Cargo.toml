@@ -7,7 +7,8 @@ license.workspace = true
 
 [dependencies]
 async-std = { version = "1.12.0", features = ["attributes"] }
-retro8-utils = { workspace = true }
+retro8-core = { version = "0.1.0", path = "../retro8-core" }
+retro8-utils = { version = "0.1.0", path = "../retro8-utils" }
 
 [dev-dependencies]
 rstest = { workspace = true }
